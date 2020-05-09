@@ -1,0 +1,261 @@
+// @media (max-width: 1315px) {
+//   .container {
+//     // max-width: 1280px;
+//     padding: 0 10px;
+//   }
+//   .wrapper {
+//     // max-width: 1040px;
+//     padding: 0 10px;
+//   }
+// }
+
+// @media (max-width: 1080px) {
+//   .wrapper {
+//     // max-width: 1040px;
+//     padding: 0 10px;
+//   }
+  
+// }
+@media (max-width: 1300px) {
+  .benefits__wrapper {
+    position: static;
+  }
+  .gallery-wrapper {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 852px) {
+  .gallery__row-subtitle {
+    font-size: 32px;
+    line-height: 32px;
+    left: 20px;
+    bottom: 20px;
+  }
+  .feature__row {
+    margin-bottom: 40px;
+  }
+  .feature__row-text {
+    padding: 30px;
+  }
+  .feature__row-text_title {
+    & h4 {
+      line-height: 30px;
+    }
+
+  }
+  .footer {
+    padding: 80px 0;
+  }
+  .footer__nav-menu {
+    margin-left: 70px;
+  }
+  .items-card_name {
+    margin-left: 5px;
+  }
+  .topplaces__items-card {
+    width: 32%;
+  }
+  .topplaces__items-card_text {
+    margin: 10px 0;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .topplaces__items {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .center {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .menu {
+    width: 100%;
+    background-color: #000;
+    z-index: 22;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // right: 0;
+    // bottom: 0;
+    transform: translateX(-100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    transition: all .5s;
+    opacity: .8;
+    &.active {
+      transform: translateX(0);
+    }
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .menu__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li {
+      margin-left: 0px;
+    }
+    li:first-child  {
+      margin-left: 0;
+    }
+  }
+
+  .benefits {
+    padding: 40px 0;
+  }
+  .benefits__items {
+    margin-top: 40px;
+  }
+  .benefits__items-title {
+    margin-top: 5px;
+  }
+  .benefits__items-subtitle {
+    margin-bottom: 10px;
+  }
+  
+  .gallery {
+    margin-bottom: 70px;
+  }
+  .feature__row-text_title {
+    & h4 {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  }
+  .feature__row-text_subtitle {
+    margin-bottom: 15px;
+  }
+  .video-wrapper {
+    margin-top: 50px;
+  }
+
+}
+@media (max-width: 625px) {
+  .benefits__item {
+    width: auto;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .benefits__items-title {
+    height: auto;
+  }
+  .benefits__items {
+    display: block;
+    text-align: center;
+    // margin-top: 20px;
+  }
+  .benefits__items-subtitle {
+    margin-bottom: 10px;
+    padding: 0 30px;
+  }
+
+  .gallery__btn {
+    margin-top: 10px;
+  }
+  // .feature__row1-text_title {
+  //   & h4 {
+  //     font-size: 20px;
+  //     line-height: 20px;
+  //   }
+  // }
+  .footer__nav-menu {
+    margin-left: 30px;
+  }
+  // .footer__logo-img {
+  //   width: auto;
+  // }
+  .feature__row-text {
+    padding: 10px;
+  }
+
+}
+@media (max-width: 560px) {
+  .header__main {
+    margin-top: 140px;
+  }
+  .header__main-title h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .header__main-search {
+    margin-top: 30px;
+  }
+  .feature__row {
+    flex-direction: column;
+  }
+  .feature__row-img {
+    width: 100%;
+  }
+  .feature__row-text {
+    width: 100%;
+    order: 1;
+  }
+  .feature__row-text_title {
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .button_head {
+    margin-right: 20px;
+  }
+  .gallery__row1-img {
+    height: 300px;
+  }
+  .gallery__row2-img {
+    height: 230px;
+  }
+
+}
+@media (max-width: 480px) {
+  
+  
+  .gallery__row-subtitle {
+    font-size: 23px;
+    line-height: 1;
+    left: 5px;
+    bottom: 5px;
+  }
+  .footer {
+    padding: 50px 0;
+    display: block;
+    text-align: center;
+  }
+  .footer__logo {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .footer__nav {
+    justify-content: space-around;
+  }
+  
+}
+
+
+@media (max-width: 400px) {
+  .header__main {
+    margin-top: 80px;
+  }
+  .header__main-title h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .header__main-search {
+    height: 40px;
+  }
+  .header__main-input {
+    padding-right: 0;
+  }
+  .button_head {
+    font-size: 20px;
+    padding: 0 22px;
+  }
+
+}
