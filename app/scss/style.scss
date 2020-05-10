@@ -285,17 +285,23 @@ input::placeholder {
 .gallery__row1, .gallery__row2{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.4vw;
+  
+}
+.gallery__row1 {
+  margin-bottom: 4px;
 }
 .gallery__row1-img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 49.8%;
+  width: 50%;
   height: 355px;
   object-fit: cover;
+  margin-right: 4px;
   // border: 1px solid black;
-  
+}
+.gallery__row1-img:last-child {
+  margin-right: 0;
 }
 .gallery__row1-img_inner {
   width: 100%;
@@ -310,10 +316,14 @@ input::placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 33%;
+  width: 33.333%;
   height: 285px;
   object-fit: cover;
+  margin-right: 4px;
   // border: 1px solid black;
+}
+.gallery__row2-img:last-child {
+  margin-right: 0;
 }
 
 .gallery__row-subtitle {
@@ -458,6 +468,10 @@ input::placeholder {
 .count_comments::after {
   content: url(/img/comment.svg);
 
+}
+.count_likes:hover ,.count_comments:hover {
+  opacity: .6;
+  transition: .2s;
 }
 // Слайдер начало!!!!!!!!!
 
